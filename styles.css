@@ -10,3 +10,68 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+header {
+    display: flow-root;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+.image{
+    width: 100%;
+    height: min-content;
+}
+.company-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icon{
+    width: 30px;
+}
+.search {
+    width: 15px;
+}
+.section-wrapper{
+    box-sizing: content-box;
+    width: fit-content;
+    height: fit-content;
+
+}
+.home-section{
+    background-color: aqua;
+}
+.about-section{
+    background-color: coral;
+}
+.products-section{
+    background-color: lawngreen;
+}
+.contact-section{
+    background-color: palevioletred;
+}
+.container-background{
+    background-image: url(./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+.flexbox{
+    display: flex;
+}
+.flex-card{
+    display: grid;
+    grid-template-areas:
+    "top-l top top-r"
+    "mid-l mid mid-r"
+    "bot-l bot bot-r";
+}
