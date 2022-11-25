@@ -17,14 +17,18 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
-.header{
+.header {
     display: flex;
     flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
 }
+.nav-bar li {
+    display: inline-block;
+    padding: 5px;
+  }
 .image{
     width: 100%;
     height: min-content;
@@ -36,16 +40,18 @@ header {
     flex-wrap: wrap;
 }
 .icon{
-    width: 30px;
+    width: 1vw;
 }
 .search {
-    width: 15px;
+    width: 1vw;
 }
 .section-wrapper{
     box-sizing: content-box;
     width: fit-content;
     height: fit-content;
-
+}
+.name-text{
+    font-size: 2vw;
 }
 .home-section{
     background-color: aqua;
@@ -60,10 +66,23 @@ header {
     background-color: palevioletred;
 }
 .container-background{
-    background-image: url(./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    /* background-image: url(./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg); */
     background-position: bottom center;
     background-repeat: no-repeat, repeat;
-    padding: 15px;
+    padding: 0px;
+    position: relative;
+}
+.top-left {
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    color: white;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 290px;
+    right: 25px;
+    color: white;
 }
 .flexbox{
     display: flex;
