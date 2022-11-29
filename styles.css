@@ -32,6 +32,11 @@ a:hover, a:active {
     text-decoration: none;
     color: black;
 }
+hr {
+    height: 2px;
+    border-width: 0;
+    color: black;
+}
 
 
 .flex-container {
