@@ -24,6 +24,10 @@ input[type=search] {
     background-position: right;
     background-repeat: no-repeat;
 }
+input[type="button"] {
+    font-size: 100%;
+    font-family: inherit;
+}
 a:link, a:visited {
     text-decoration: none;
     color: black;
@@ -49,11 +53,11 @@ hr {
     flex-wrap: wrap;
     font-size: 2vw;
     justify-content: space-evenly;
-    border-bottom: 5px solid black;
-    margin: 1px;
+    /* border-bottom: 5px solid black; */
+    /* margin: 1px; */
     background-color: white;
     align-items: center;
-    box-shadow: 0px 5px 8px black;
+    box-shadow: 0px 1px 5px black;
 }
 .nav-bar li {
     display: inline-block;
@@ -65,6 +69,10 @@ hr {
 .cylinder {
     height: 75%;
     width: 50%;
+}
+.dame {
+    width: 50%;
+    float: right;
 }
 .icon {
     width: 1vw;
@@ -115,4 +123,10 @@ hr {
     "top-l top top-r"
     "mid-l mid mid-r"
     "bot-l bot bot-r";
+}
+.flex-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
 }
